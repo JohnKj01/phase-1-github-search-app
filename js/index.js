@@ -18,12 +18,12 @@ li.addEventListener("click",()=>{
     //specifying the results to be json
     .then(repos=>
         console.log(repos))
-        for (let i=0,i<repos.length,i++){
+        for (let i=0 ;i<repos.length;i++){
         const reposList=document.querrySelector("#repos-list")
         //iteration through the json list
-        const ripleli=document.create 'li'
-        ripleli.innnerHTML=`${riple[i].userName}`
-        reposList.appendChild(ripleLi)
+        const ripleli=document.create ('li')
+        ripleli.innnerHTML=`${ripleli[i].userName}`
+        reposList.appendChild(ripleli)
         }    
 }
 )
